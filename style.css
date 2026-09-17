@@ -1,0 +1,9 @@
+/* External style sheet */
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  font-size: 32px;
+  color: green;
+}

@@ -1,0 +1,29 @@
+<head>
+    <title>Flex Layout</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+         }
+         .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+         }
+         .boximg{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+         }
+    </style>
+</head>
+<body>
+    <h2> Rose gallery</h2>
+    <div class="container">
+        <div class="box"><img src="rose.jpg" alt="Image 1" class="boximg"></div>
+        <div class="box"><img src="rose.jpg" alt="Image 2" class="boximg"></div>
+        <div class="box"><img src="rose.jpg" alt="Image 3" class="boximg"></div>
+        <div class="box"><img src="rose.jpg" alt="Image 4" class="boximg"></div>
+    </div>
